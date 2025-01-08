@@ -72,11 +72,7 @@ form button {
   transition: background-color 0.3s;
 }
 
-form button:hover {
-  background-color: #4facfe;
-}
-
-.loding {
+.loading {
   background-color: #ccc;
   cursor: not-allowed;
 }

@@ -91,7 +91,7 @@
         })
         .finally(() => {
           button.disabled = false;
-          button.classList.add('loading');
+          button.classList.remove('loading');
           button.innerText = 'Register';
         });
     });
