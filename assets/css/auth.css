@@ -74,7 +74,7 @@ form button {
 
 .loading {
   background-color: #ccc;
-  cursor: not-allowed;
+  cursor: default;
 }
 
 a {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/auth.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <p id="error" style="display: none;">Invalid email or password!</p>
+
+    <form id="loginForm" action="#" method="post">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="off">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required autocomplete="new-password">
+
+      <button type="submit">Login</button>
+    </form>
+
+    <a href="register.html">Don't have an account? Register</a>
+  </div>
+</body>
+</html>
